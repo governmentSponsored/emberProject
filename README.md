@@ -1,0 +1,4 @@
+emberProject
+============
+
+Learning Ember!
