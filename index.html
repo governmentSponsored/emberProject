@@ -21,7 +21,7 @@
           </li>
           <li>
             <input type="checkbox" class="toggle">
-            <label>...</label><button class="destroy"></button>
+            <label>???</label><button class="destroy"></button>
           </li>
           <li>
             <input type="checkbox" class="toggle">
@@ -57,6 +57,14 @@
     <footer id="info">
       <p>Double-click to edit a todo</p>
     </footer>
+	
+	<div class="container">{{outlet}}</div>
+  </script>
+  <script type='text/x-handlebars' data-template-name='index'>
+	<h1>What do you need to do?</h1>
+  </script>
+  <script type='text/x-handlebars' data-template-name='active'>
+	<h1>You still need to finish these things!</h1>
   </script>
   <script src="js/libs/jquery-1.10.2.min.js"></script>
   <script src="js/libs/handlebars-v1.3.0.js"></script>
